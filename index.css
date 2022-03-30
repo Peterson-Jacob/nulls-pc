@@ -3,18 +3,41 @@
     color: white;
 }
 
-span{
-    color: white;
+.shop-cart{
+    border: 2px solid black;
 }
 
-@media only screen and (max-width: 600px) {
+.card{
+    width: 400px;
+}
+
+.cardBtn{
+    width: 100px;
+}
+
+.section-top{
+    margin-top: 50px;
+    
+}
+
+.section-top-post{
+    margin-top: 10%;
+}
+
+
+.section-top-img img{
+    max-width: 1000px;
+}
+
+
+@media only screen and (max-width: 570px) {
 
     .header-nav, .header-cart{
         display: none;
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 571px) {
 
     .mobile-menu{
         display: none;
