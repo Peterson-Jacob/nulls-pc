@@ -3,6 +3,10 @@
     color: white;
 }
 
+li a{
+    color: white;
+}
+
 .shop-cart{
     border: 2px solid black;
 }
@@ -19,6 +23,7 @@
     margin-top: 50px;
     
 }
+
 
 .section-top-post{
     margin-top: 10%;
