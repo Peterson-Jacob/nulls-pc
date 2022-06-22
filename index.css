@@ -1,18 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
 .header-logo h1{
     color: white;
+    margin-left: 50px;
 }
 
-li a{
+.nav-bar{
+    width: 100%;
+}
+
+.nav-link{
     color: white;
-}
-
-.shop-cart{
-    border: 2px solid black;
+    font-size: 20px;
 }
 
 .card{
     width: 400px;
+    margin: 50px;
 }
 
 .cardBtn{
@@ -24,27 +32,47 @@ li a{
     
 }
 
-
 .section-top-post{
     margin-top: 10%;
 }
 
+@media only screen and (max-width: 575px) {
 
-.section-top-img img{
-    max-width: 1000px;
-}
-
-
-@media only screen and (max-width: 570px) {
+ 
 
     .header-nav, .header-cart{
         display: none;
     }
+
+    .section-top-img img{
+        margin-top: 35%;
+        width: 400px;
+        height: auto;
+    }
+
+
 }
 
-@media only screen and (min-width: 571px) {
+@media only screen and (min-width: 576px) {
+
 
     .mobile-menu{
         display: none;
     }
+
+    .section-top-img img{
+        max-width: 100%;
+        margin-top: 25%;
+        height: auto;
+    }
+   
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .section-top-img img{
+        margin-top: 5%;
+    }
+
 }
